@@ -1,0 +1,21 @@
+# external dataset (nested repo, download separately)
+RAG-Multi-Corpus/
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# generated artifacts
+data/processed/
+chroma_db/
+*.log
+
+# editor / OS
+.vscode/
+.DS_Store
